@@ -1,5 +1,6 @@
 import React from 'react'
 import Input from './Input'
+import CardsSlider from './CardsSlider'
 
 
 const ResponsiveAppBar = () => {
@@ -47,7 +48,9 @@ const ResponsiveAppBar = () => {
                 <p>Cart </p>
                 <p> <img src="https://f.nooncdn.com/s/app/com/noon/icons/cart.svg" alt="" /> </p>
               </div>
-              
+              <div>
+                <CardsSlider/>
+              </div>
               
 
 
